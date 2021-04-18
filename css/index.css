@@ -1,23 +1,50 @@
-.app {
+* {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.app {
+  background-color: #343434;
 }
 
 .navbar {
-  display: inline;
   position: sticky;
   top: 0px;
   height: 5vh;
   width: 100vw;
-  background: #212121;
+  background-color: #212121 !important;
+  z-index: 999;
+  overflow: hidden;
+  user-select: none;
+  border-bottom: 1px solid #121212;
+}
+
+.logo-titel, .logo-titel:link, .logo-titel:visited, .logo-titel:active {
+  color: aqua;
+  font-size: 30px;
+  text-decoration: 0;
 }
 
 .main-area {
   width: 75vw;
-  margin: auto;
+  margin: 50px auto 50px auto;
+  color: aquamarine;
+  background-color: #212121;
+}
+
+.main-area h1 {
+  text-align: center;
+  color: goldenrod;
 }
 
 .footer {
-  bottom: 0px;
+  vertical-align: bottom;
+  height: 3vh;
   width: 100vw;
+  text-align: center;
+  color: aqua;
+  border-top: 1px solid #121212;
+  background-color: #212121;
 }

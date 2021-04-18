@@ -1,0 +1,23 @@
+.app {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: inline;
+  position: sticky;
+  top: 0px;
+  height: 5vh;
+  width: 100vw;
+  background: #212121;
+}
+
+.main-area {
+  width: 75vw;
+  margin: auto;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100vw;
+}
